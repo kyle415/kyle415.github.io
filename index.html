@@ -1,7 +1,215 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Doom Lover - Boston Indie Rock</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <!--Image gallery css-->
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">DOOM</span> LOVER
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#music">Music</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#photos">Photos</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#videos">Videos</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Doom Lover<h1>
+                           
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About DOOM LOVER</h2>
+                <p>Though leaning hard on the alt-rock button, Doom Lover is on any given night at least two things at once. Driven by one intention, but many methods, Doom Lover craft haunted rocks songs delivered with equal parts aplomb and tenderness. Songs filled with soaring hooks, noisy freakouts, plenty of specters and a stage show complete with three part harmonies, lots of stuff falling over and the occasional puppet show or choreographed dance routine.</p>
+                <p>Lately Doom Lover has been feverishly writing songs that will that will show up on a debut release sometime this year; and eating tacos, lots and lots of tacos.</p>
+                
+               
+                
+            </div>
+        </div>
+    </section>
+    <section id="music" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Listen To Doom Lover</h1>
+                <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3645234436/size=small/bgcol=333333/linkcol=de270f/transparent=true/" seamless><a href="http://doomlover.bandcamp.com/track/yellow-green">Yellow &amp; Green by Doom Lover</a></iframe>
+               <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/track=3936173453/size=small/bgcol=333333/linkcol=e32c14/transparent=true/" seamless><a href="http://doomlover.bandcamp.com/track/silver-smoke-signals">Silver Smoke Signals by Doom Lover</a></iframe>
+            </div>
+        </div>
+    </section>
+        <section id="photos" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Photos</h1>
+                <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+    </section>
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <blockquote class="blockquote-reverse">
+            <p>"one thing’s for sure: they play alternative music."</p> <footer>-The Weekly Dig</footer></blockquote><br />
+             <blockquote class="blockquote-reverse"><p>"A grungy layering of guitar and light synth, it is easy to pick up on the little influences and musical histories of the various bandmates. The jam comes to an exciting peak with every chorus, leaving a vigorous hook to resonate until we hear more from these guys. Hold onto yer butts, Doom Lover is coming!"</p><footer> - Perry Eaton, <a href="http://allstonpudding.com/hear-debut-track-from-doom-lover-called-yellow-green/">Allston Pudding</a><footer></blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+               <!-- <h2>Videos</h2> -->
+                <iframe width="640" height="390" src="http://www.youtube.com/embed/CLbAujOPXlE" frameborder="0" allowfullscreen></iframe>
+                <br /><br />
+                <iframe width="640" height="390" src="http://www.youtube.com/embed/2JccMMz-7cg" frameborder="0" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+    </section>
+        <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://twitter.com/wearedoomlover" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li><a href="https://facebook.com/doomlover" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+    <!--script for image gallery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
+
 </body>
+
 </html>
