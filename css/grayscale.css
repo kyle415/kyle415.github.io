@@ -394,3 +394,6 @@ body {
   margin-left: auto ;
   margin-right: auto ;
 }
+.email-signup {
+    width: 400px;
+}
