@@ -46,6 +46,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+span.glyphicon-play-circle {
+    font-size: 8.0em;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
